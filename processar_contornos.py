@@ -28,7 +28,7 @@ def processar_contornos(imagem_original, imagem_processada):
         if h < (w * 0.2):
             continue
 
-        if area < 9000 or area > 40000:
+        if area < 10000 or area > 50000:
             continue
 
         # Se o polígono tiver quatro lados, consideramos que é um retângulo
